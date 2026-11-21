@@ -44,6 +44,3 @@ Run `py file_triage.py --references missing.csv` to demonstrate a missing refere
 
 ## Cybersecurity interpretation
 A matching hash means content matches a reference entry, **not** that it is harmless. UNKNOWN means no reference match, **not** that the file is malware. Hashing is useful for integrity comparison, identifying duplicate evidence and triage prioritisation, but it does not analyse executable behaviour. These samples are safe teaching data; no files are uploaded externally.
-
-## Submission reminder
-The PDF cover page must include working, accessible **GitHub** and **approximately 5-minute demonstration video** links. Upload **only one PDF** to Brightspace. Ensure your own report, narration and explanations reflect your understanding of the work.
