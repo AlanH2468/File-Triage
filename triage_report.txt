@@ -1,0 +1,47 @@
+FILE TRIAGE & SHA-256 INVESTIGATION
+============================================
+Files analysed: 5
+KNOWN: 3 | UNKNOWN: 2
+Duplicate groups: 1
+
+File: sample_a.txt
+  Extension: .txt | Size: 153 bytes
+  Modified: 2026-11-21T14:54:55+00:00
+  SHA-256: 0682153a5a559dbbb265e02db83455d4f8ae7a0121643439055280d289c437ad
+  Status: KNOWN (Known Baseline Text)
+
+File: sample_b.txt
+  Extension: .txt | Size: 153 bytes
+  Modified: 2026-11-21T14:54:55+00:00
+  SHA-256: 0682153a5a559dbbb265e02db83455d4f8ae7a0121643439055280d289c437ad
+  Status: KNOWN (Known Baseline Text)
+
+File: sample_c.txt
+  Extension: .txt | Size: 154 bytes
+  Modified: 2026-11-21T14:54:55+00:00
+  SHA-256: 776e6bb134664392f337a18cbb3757a8a9d35a43c874b14334d77fb0e6cc359a
+  Status: UNKNOWN
+
+File: sample_d.bin
+  Extension: .bin | Size: 2048 bytes
+  Modified: 2026-11-21T14:54:55+00:00
+  SHA-256: ebdf6e5999be272c66881adf12358e341385ec8f291cecaf293af9fb8b166c54
+  Status: KNOWN (Known Baseline Binary)
+
+File: sample_e.bin
+  Extension: .bin | Size: 537 bytes
+  Modified: 2026-11-21T14:54:55+00:00
+  SHA-256: 7676611ef9c01f00a97c51181218c37628753ede5705692a3dad54eb68c11450
+  Status: UNKNOWN
+
+DUPLICATE CONTENT GROUPS
+- sample_a.txt, sample_b.txt (SHA-256 0682153a5a559dbbb265e02db83455d4f8ae7a0121643439055280d289c437ad)
+
+SECURITY INTERPRETATION
+KNOWN means the hash matched the supplied reference list; it is not a safety guarantee.
+UNKNOWN means no reference match; it does not prove a file is malicious.
+Duplicate hashes indicate identical file content even when names differ.
+A hash alone does not explain file behaviour or detect every threat.
+
+WARNINGS
+None
